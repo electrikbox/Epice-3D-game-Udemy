@@ -35,7 +35,6 @@ public class OpenDoor : MonoBehaviour
             sound= false;
             audioSource.PlayOneShot(doorSound);
         }
-
         porte.enabled = false;
         porteOpen1.enabled = true;
         porteOpen2.enabled = true;
